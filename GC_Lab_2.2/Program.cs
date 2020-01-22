@@ -8,7 +8,7 @@ namespace GC_Lab_2._2
         {
             Console.WriteLine("Learn your Squares & Cubes!");
             bool isLooping = true;
-            var maxValueIntCubeRoot = (Int64)Math.Pow(Int64.MaxValue, (1.0 / 3.0));
+            var maxValueIntCubeRoot = (Int64)Math.Pow(Int32.MaxValue, (1.0 / 3.0));
 
             while (isLooping)
             {
@@ -47,7 +47,7 @@ namespace GC_Lab_2._2
                 Console.WriteLine(String.Format("|{0,20}|{1,20}|{2,20}|", "Number", "Square", "Cube"));
                 Console.WriteLine("|====================|====================|====================|");
 
-                for (Int64 i = 0; i <= endingNumber; i++)
+                for (Int64 i = 1; i <= endingNumber; i++)
                 {
                     var num = i;
                     var square = i * i;
