@@ -19,7 +19,7 @@ namespace GC_Lab_2._2
                 do
                 {
                     Console.WriteLine();
-                    Console.WriteLine("Please give me an integer greater than 0 and press enter: ");
+                    Console.Write("Please give me an integer greater than 0 and press enter: ");
                     string input = Console.ReadLine();
                     Console.WriteLine();
                     var isInt = Int64.TryParse(input, out endingNumber);
