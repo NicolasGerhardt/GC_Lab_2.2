@@ -8,13 +8,13 @@ namespace GC_Lab_2._2
         {
             Console.WriteLine("Learn your Squares & Cubes!");
             bool isLooping = true;
-            int maxValueIntCubeRoot = (int) Math.Pow(int.MaxValue, (1.0 / 3.0));
+            var maxValueIntCubeRoot = (Int64)Math.Pow(Int64.MaxValue, (1.0 / 3.0));
 
             while (isLooping)
             {
 
                 bool validInput = false;
-                int endingNumber = int.MinValue;
+                var endingNumber = Int64.MinValue;
 
                 do
                 {
@@ -22,7 +22,7 @@ namespace GC_Lab_2._2
                     Console.WriteLine("Please give me an integer greater than 0 and press enter: ");
                     string input = Console.ReadLine();
                     Console.WriteLine();
-                    var isInt = int.TryParse(input, out endingNumber);
+                    var isInt = Int64.TryParse(input, out endingNumber);
 
                     if (!isInt)
                     {
@@ -43,19 +43,22 @@ namespace GC_Lab_2._2
 
                 } while (!validInput);
 
+                Console.WriteLine("|==============================================================|");
+                Console.WriteLine(String.Format("|{0,20}|{1,20}|{2,20}|", "Number", "Square", "Cube"));
+                Console.WriteLine("|====================|====================|====================|");
 
-                Console.WriteLine("Number\t\tSquared\t\tCubed");
-                Console.WriteLine("=======\t\t========\t======");
-
-                for (int i = 0; i <= endingNumber; i++)
+                for (Int64 i = 0; i <= endingNumber; i++)
                 {
-                    Console.WriteLine($"{i}\t\t{i * i}\t\t{i * i * i}");
+                    var num = i;
+                    var square = i * i;
+                    var cube = i * i * i;
+                    Console.WriteLine(String.Format("|{0,20}|{1,20}|{2,20}|", num, square, cube));
 
 
                 }
+                Console.WriteLine("|==============================================================|");
 
                 bool showGoAgainPromptLoop = true;
-
                 while (showGoAgainPromptLoop)
                 {
 
