@@ -1,0 +1,11 @@
+C:\git\GC_Labs\GC_Lab_2.2\GC_Lab_2.2\bin\Debug\netcoreapp3.1\GC_Lab_2.2.exe
+C:\git\GC_Labs\GC_Lab_2.2\GC_Lab_2.2\bin\Debug\netcoreapp3.1\GC_Lab_2.2.deps.json
+C:\git\GC_Labs\GC_Lab_2.2\GC_Lab_2.2\bin\Debug\netcoreapp3.1\GC_Lab_2.2.runtimeconfig.json
+C:\git\GC_Labs\GC_Lab_2.2\GC_Lab_2.2\bin\Debug\netcoreapp3.1\GC_Lab_2.2.runtimeconfig.dev.json
+C:\git\GC_Labs\GC_Lab_2.2\GC_Lab_2.2\bin\Debug\netcoreapp3.1\GC_Lab_2.2.dll
+C:\git\GC_Labs\GC_Lab_2.2\GC_Lab_2.2\bin\Debug\netcoreapp3.1\GC_Lab_2.2.pdb
+C:\git\GC_Labs\GC_Lab_2.2\GC_Lab_2.2\obj\Debug\netcoreapp3.1\GC_Lab_2.2.csprojAssemblyReference.cache
+C:\git\GC_Labs\GC_Lab_2.2\GC_Lab_2.2\obj\Debug\netcoreapp3.1\GC_Lab_2.2.AssemblyInfoInputs.cache
+C:\git\GC_Labs\GC_Lab_2.2\GC_Lab_2.2\obj\Debug\netcoreapp3.1\GC_Lab_2.2.AssemblyInfo.cs
+C:\git\GC_Labs\GC_Lab_2.2\GC_Lab_2.2\obj\Debug\netcoreapp3.1\GC_Lab_2.2.dll
+C:\git\GC_Labs\GC_Lab_2.2\GC_Lab_2.2\obj\Debug\netcoreapp3.1\GC_Lab_2.2.pdb
